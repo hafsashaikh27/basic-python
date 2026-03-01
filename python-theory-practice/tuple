@@ -1,0 +1,11 @@
+print("Given Tuple:", mytuple        )
+
+
+print("After Converting Tuple into List:",list(mytuple)        )
+list1=list(mytuple)
+
+list1[1]='practice'
+print("List after changing element:",list1       )
+mytuple1=tuple(list1)
+
+print("After Converting List into Tuple:",mytuple1)
