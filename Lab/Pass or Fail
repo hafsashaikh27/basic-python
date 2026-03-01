@@ -1,0 +1,22 @@
+n = int(input().strip())
+
+marks = list(map(int, input().split()))
+
+
+if any(m < 40 for m in marks):
+    print("Fail")
+else:
+    total = sum(marks)
+    percentage = total / n
+
+    # Print in exact required format
+    print(f"Aggregate Percentage: {percentage:.2f}")
+
+    if percentage > 75:
+        print("Grade: Distinction")
+    elif 60 <= percentage < 75:
+        print("Grade: First Division")
+    elif 50 <= percentage < 60:
+        print("Grade: Second Division")
+    elif 40 <= percentage < 50:
+        print("Grade: Third Division")
