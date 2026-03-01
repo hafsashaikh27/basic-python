@@ -1,0 +1,18 @@
+value1 = input("Enter the first value: ")
+value2 = input("Enter the second value: ")
+value3 = input("Enter the third value: ")
+list1 = [value1,value2,value3] # create llist one with above three variables
+
+#print the list1
+print("List1:",list1)
+value4 = input("Enter the first value: ")
+value5 = input("Enter the second value: ")
+value6 = input("Enter the third value: ")
+list2 = [value4,value5,value6]# create llist one with above three variables
+
+
+# print the list2
+print("List2:",list2)
+# Concatenate list1 and list2 and print the result
+
+print("List after Concatenation:",list1+list2)
